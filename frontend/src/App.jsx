@@ -9,7 +9,7 @@ import CredentialsForm from './components/CredentialsForm';
 const App = () => {
   const [showForm,setShowForm] = useState(false)
 
-  const BASE_URL = "http://localhost:3000"
+  const BASE_URL = "https://bulk-mailer-9a7f.onrender.com"
 
   return (
     <div className='font-roboto bg-gray-100  min-h-screen relative'>
